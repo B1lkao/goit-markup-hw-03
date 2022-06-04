@@ -83,7 +83,14 @@ body {
 .main-decision {
     background-color: #2F303A;
 }
-
+.flex {
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2F303A;
+}
 .decision-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -91,20 +98,32 @@ body {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    align-items: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding: 200px 452px;
 }
 
 .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
     border-radius: 4px;
     color: #FFFFFF;
     cursor: pointer;
+    padding: 10px 32px;
 }
-
+.decision .container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
 .decision-item-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -122,7 +141,23 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
-
+.decision-list {
+    display: flex;
+    padding-left: 0;
+}
+.decision-item-list:not(:last-child) {
+    margin-right: 30px;
+}
+.main-do .container {
+    padding-bottom: 94px;
+}
+.do-list {
+    display: flex;
+    padding-left: 0;
+}
+.do-item-list:not(:last-child) {
+    margin-right: 30px;
+}
 .do-title {
     font-weight: 700;
     font-size: 36px;
@@ -131,27 +166,62 @@ body {
     letter-spacing: 0.03em;
     color: #212121;
 }
-
+.main-team .container {
+    padding-top: 5px;
+    padding-bottom: 94px;
+}
 .main-team {
     background-color: #F5F4FA;
 }
-.participant {
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+ .team-list {
+    display: flex;
+    padding-left: 0;
+}
+ .team-item-list  {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+ }
+ .team-item-list:not(:last-child) {
+    margin-right: 30px;
+}
+ .participant {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 19px;
+    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
-.participant-job {
+ .participant-job {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 19px;
+    text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.footer {
+ .footer {
     background-color: #2F303A;
 }
+ .web-studio {
+    padding-top: 60px;
+    padding-bottom: 20px;
+ }
  .footer-logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -162,6 +232,12 @@ body {
     color: #FFFFFF;
     text-decoration: none;
  }
+ .address-list {
+    margin-top: 0px;
+ }
+ .address-item-phone {
+    padding-bottom: 60px;
+ }
  .city {
     font-size: 14px;
     line-height: 1.71;
@@ -170,7 +246,10 @@ body {
     text-decoration: none;
     font-style: normal;
  }
-
+ .address-list {
+    padding-left: 0;
+    margin-bottom: 0px;
+ }
  .address-mail {
     font-size: 14px;
     line-height: 1.71;
