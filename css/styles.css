@@ -1,0 +1,213 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;     
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #212121;
+    text-decoration: none;
+}
+.web {
+    color: #2196F3;
+}
+
+.nav-item,
+.mail,
+.phone-number {
+    text-decoration: none;
+}
+.nav-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-item:visited {
+    color: #212121;
+}
+.nav-item:hover {
+    color: #2196F3;
+}
+.mail,
+.phone-number {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.mail:visited,
+.phone-number:visited {
+    color: #757575;
+}
+.mail:hover,
+.phone-number:hover {
+    color: #2196F3;
+}
+
+.main-decision {
+    background-color: #2F303A;
+}
+
+.decision-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.decision-item-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.decision-item-content {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.main-team {
+    background-color: #F5F4FA;
+}
+.participant {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.participant-job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.footer {
+    background-color: #2F303A;
+}
+ .footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+ .city {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+ }
+
+ .address-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+ }
+ .address-phone {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+ }
+ .city:visited{
+    color: #FFFFFF;
+ }
+ .address-mail:visited,
+ .address-phone:visited {
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .address-mail:hover,
+ .address-phone:hover,
+ .city:hover {
+    color: #2196F3;
+ }
+ .filter-btn {
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ .filter-btn {
+    background-color: #F5F4FA;
+    color: #212121;
+ }
+ .filter-btn:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+ }
+ .categories-item-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+ }
+ .categories-item-content {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+ }
+ .nav,
+ .mail-phone,
+ .decision-list,
+ .do-list,
+ .team-list,
+ .address-list,
+ .button-list,
+ .categories-list,
+ .second-categories-list {
+    list-style-type: none;
+ }
