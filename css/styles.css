@@ -2,6 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #000000;     
 }
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 .header-logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -10,12 +17,29 @@ body {
     line-height: 1.19;
     color: #212121;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 93px;
 }
 .web {
     color: #2196F3;
 }
-
-.nav-item,
+.header .container {
+    display: flex;
+}
+.header-connect {
+    margin-left: auto;
+}
+.mail-phone {
+    display: flex;
+}
+.nav {
+    display: flex;
+}
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+.nav-item-link,
 .mail,
 .phone-number {
     text-decoration: none;
@@ -28,11 +52,14 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.nav-item:visited {
+.nav-item-link:visited {
     color: #212121;
 }
-.nav-item:hover {
+.nav-item-link:hover {
     color: #2196F3;
+}
+.mail-phone-item:not(:last-child) {
+    margin-right: 50px;
 }
 .mail,
 .phone-number {
@@ -67,6 +94,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding: 200px 452px;
 }
 
 .button {
