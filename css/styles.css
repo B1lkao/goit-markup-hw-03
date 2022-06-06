@@ -344,8 +344,8 @@ body {
     padding-left: 0px;
     justify-content: space-between;
  }
- section .container .second-categories-list {
-    margin-top: 0px;
+ .second-categories-list {
+    margin-bottom: 94px;
  }
  .nav,
  .mail-phone,
