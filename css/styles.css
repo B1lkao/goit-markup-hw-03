@@ -319,9 +319,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
+    justify-content: space-between;
  }
- .categories-item-list:not(:last-child) {
-    padding-right: 30px;
+ section .container .categories-list {
+    margin-top: 50px;
  }
  .categories-item-title {
     font-family: 'Roboto';
@@ -341,6 +342,10 @@ body {
  .second-categories-list {
     display: flex;
     padding-left: 0px;
+    justify-content: space-between;
+ }
+ section .container .second-categories-list {
+    margin-top: 0px;
  }
  .nav,
  .mail-phone,
