@@ -321,9 +321,6 @@ body {
     padding-left: 0;
     justify-content: space-between;
  }
- section .container .categories-list {
-    margin-top: 50px;
- }
  .categories-item-title {
     font-family: 'Roboto';
     font-style: normal;
