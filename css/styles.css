@@ -278,6 +278,10 @@ body {
  .city:hover {
     color: #2196F3;
  }
+ hr {
+    margin-top: 0px;
+    color: rgb(236, 236, 236);
+ }
  .button-list {
     display: flex;
     padding-left: 280px;
