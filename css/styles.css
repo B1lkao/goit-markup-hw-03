@@ -83,7 +83,7 @@ img {
     color: #2196F3;
 }
 .mail-phone {
-    padding-left: 331px;
+    margin-left: auto;
 }
 .mail-phone-item:not(:last-child) {
     margin-right: 50px;
@@ -127,7 +127,7 @@ img {
     color: #FFFFFF;
     width: 696px;
     height: 120px;
-    margin-left: 237px;
+    margin: 0 auto 30px;
 }
 
 .button {
@@ -145,8 +145,7 @@ img {
     color: #FFFFFF;
     cursor: pointer;
     padding: 10px 32px;
-    margin-top: 40px;
-    margin-left: 485px;
+    margin: 0 auto;
 }
 
 .decision {
